@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.1.so \
     vendor/gigaset/GS5/proprietary/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.2.so \
     vendor/gigaset/GS5/proprietary/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.3.so \
+    vendor/gigaset/GS5/proprietary/lib/vendor.mediatek.hardware.pq_aidl-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq_aidl-V1-ndk.so \
     vendor/gigaset/GS5/proprietary/lib64/libccci_util_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libccci_util_sys.so \
     vendor/gigaset/GS5/proprietary/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcomutils.so \
     vendor/gigaset/GS5/proprietary/lib64/libem_aoltest_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_aoltest_jni.so \
@@ -48,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/lib64/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.1.so \
     vendor/gigaset/GS5/proprietary/lib64/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.2.so \
     vendor/gigaset/GS5/proprietary/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.3.so \
+    vendor/gigaset/GS5/proprietary/lib64/vendor.mediatek.hardware.pq_aidl-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq_aidl-V1-ndk.so \
     vendor/gigaset/GS5/proprietary/system_ext/bin/emdlogger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/emdlogger \
     vendor/gigaset/GS5/proprietary/system_ext/bin/mdlogger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/mdlogger \
     vendor/gigaset/GS5/proprietary/system_ext/etc/init/emdlogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/emdlogger.rc \
