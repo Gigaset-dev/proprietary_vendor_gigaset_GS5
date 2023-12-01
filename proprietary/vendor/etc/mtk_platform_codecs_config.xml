@@ -5,6 +5,9 @@
     <Decoders>
         <Video name="color.converter"
                alwaysColorConvertChecker="true" />
+        <Video name="cpu.boost.mode"
+               cluster="0"
+               minFrequency="774000"/>
         <Video name="c2.mtk.mpeg4.decoder"
                type="video/mp4v-es"
                driverIntf="v4l2"

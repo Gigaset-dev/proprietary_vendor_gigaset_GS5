@@ -451,7 +451,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
-    vendor/gigaset/GS5/proprietary/vendor/etc/init/volte_rcs_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_rcs_ua.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/wifimacaddr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifimacaddr.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
@@ -534,7 +533,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/7892ad52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7892ad52.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/7a7c655d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a7c655d.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/7a819ef2.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a819ef2.0 \
-    vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/7c302982.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7c302982.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/81b9768f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/81b9768f.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/82223c44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/82223c44.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/83e9984f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/83e9984f.0 \
@@ -575,7 +573,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/bd43e1dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bd43e1dd.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/bdacca6f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bdacca6f.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/bf64f35b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bf64f35b.0 \
-    vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/c2c1704e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c2c1704e.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/c491639e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c491639e.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/c51c224c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c51c224c.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/c559d742.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c559d742.0 \
@@ -585,7 +582,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/ccc52f49.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ccc52f49.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/cf701eeb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cf701eeb.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/d06393bb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d06393bb.0 \
-    vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/d0cddf45.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d0cddf45.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/d16a5865.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d16a5865.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/d18e9066.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d18e9066.0 \
     vendor/gigaset/GS5/proprietary/vendor/etc/security/cacerts/d39b0a2c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d39b0a2c.0 \
@@ -879,7 +875,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
     vendor/gigaset/GS5/proprietary/vendor/lib/libmtkspparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkspparser.so \
     vendor/gigaset/GS5/proprietary/vendor/lib/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtksysutils.so \
-    vendor/gigaset/GS5/proprietary/vendor/lib/libmvpu_config_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_config_data.so \
     vendor/gigaset/GS5/proprietary/vendor/lib/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuroeara.so \
     vendor/gigaset/GS5/proprietary/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
     vendor/gigaset/GS5/proprietary/vendor/lib/libnir_neon_driver_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnir_neon_driver_ndk.mtk.vndk.so \
@@ -1216,7 +1211,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
-    vendor/gigaset/GS5/proprietary/vendor/lib64/libloadfilterhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloadfilterhal.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpcnr.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfllcore.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
@@ -1310,7 +1304,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtksysutils.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libmtktinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtktinyxml.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkutils.so \
-    vendor/gigaset/GS5/proprietary/vendor/lib64/libmvpu_config_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_config_data.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuroeara.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libneuron_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_adapter.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libneuron_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_platform.so \
@@ -1348,7 +1341,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libteei_daemon_vfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteei_daemon_vfs.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libtensorflowlite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtensorflowlite.so \
-    vendor/gigaset/GS5/proprietary/vendor/lib64/libtensorflowlite_c.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtensorflowlite_c.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mapi_v3.0.so \
