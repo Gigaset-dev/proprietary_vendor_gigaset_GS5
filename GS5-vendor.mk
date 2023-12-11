@@ -1070,6 +1070,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_key.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_mtk.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaalservice.so \
+    vendor/gigaset/GS5/proprietary/vendor/lib64/libabfadp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libabfadp.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdk.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadpcmdec_mtk.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
@@ -1102,6 +1103,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk_pure.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_relayer.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetoothem_mtk.so \
+    vendor/gigaset/GS5/proprietary/vendor/lib64/libbstFilterCapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbstFilterCapture.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libcam.chdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.chdr.so \
@@ -1121,6 +1123,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libcam.utils.sensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.utils.sensorprovider.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libcam.vhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.vhdr.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libcamalgo.3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.3dnr.so \
+    vendor/gigaset/GS5/proprietary/vendor/lib64/libcamalgo.abf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.abf.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libcamalgo.dngop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.dngop.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libcamalgo.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.eis.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libcamalgo.fdft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.fdft.so \
