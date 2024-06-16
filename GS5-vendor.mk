@@ -7,8 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
-    vendor/gigaset/GS5/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
-    vendor/gigaset/GS5/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
     vendor/gigaset/GS5/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/gigaset/GS5/proprietary/lib/libmemoryDumpEncoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmemoryDumpEncoder.so \
     vendor/gigaset/GS5/proprietary/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.0.so \
@@ -17,27 +15,10 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.3.so \
     vendor/gigaset/GS5/proprietary/lib/vendor.mediatek.hardware.pq_aidl-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq_aidl-V1-ndk.so \
     vendor/gigaset/GS5/proprietary/lib64/libccci_util_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libccci_util_sys.so \
-    vendor/gigaset/GS5/proprietary/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcomutils.so \
-    vendor/gigaset/GS5/proprietary/lib64/libem_aoltest_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_aoltest_jni.so \
-    vendor/gigaset/GS5/proprietary/lib64/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_audio_jni.so \
-    vendor/gigaset/GS5/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
-    vendor/gigaset/GS5/proprietary/lib64/libem_wifi_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_wifi_jni.so \
-    vendor/gigaset/GS5/proprietary/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma.so \
-    vendor/gigaset/GS5/proprietary/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_adapt.so \
-    vendor/gigaset/GS5/proprietary/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_rtp.so \
-    vendor/gigaset/GS5/proprietary/lib64/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_socketwrapper.so \
     vendor/gigaset/GS5/proprietary/lib64/libjni_pq.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_pq.so \
     vendor/gigaset/GS5/proprietary/lib64/libmemoryDumpEncoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmemoryDumpEncoder.so \
-    vendor/gigaset/GS5/proprietary/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_service.so \
-    vendor/gigaset/GS5/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
     vendor/gigaset/GS5/proprietary/lib64/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libshowlogo.so \
-    vendor/gigaset/GS5/proprietary/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsignal.so \
-    vendor/gigaset/GS5/proprietary/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsink.so \
-    vendor/gigaset/GS5/proprietary/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsource.so \
     vendor/gigaset/GS5/proprietary/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsysenv_system.so \
-    vendor/gigaset/GS5/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
-    vendor/gigaset/GS5/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
-    vendor/gigaset/GS5/proprietary/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvt_avsync.so \
     vendor/gigaset/GS5/proprietary/lib64/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.0.so \
     vendor/gigaset/GS5/proprietary/lib64/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.1.so \
     vendor/gigaset/GS5/proprietary/lib64/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.2.so \
@@ -45,8 +26,16 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/lib64/vendor.mediatek.hardware.pq_aidl-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq_aidl-V1-ndk.so \
     vendor/gigaset/GS5/proprietary/system_ext/bin/emdlogger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/emdlogger \
     vendor/gigaset/GS5/proprietary/system_ext/bin/mdlogger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/mdlogger \
+    vendor/gigaset/GS5/proprietary/system_ext/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/vtservice \
     vendor/gigaset/GS5/proprietary/system_ext/etc/init/emdlogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/emdlogger.rc \
+    vendor/gigaset/GS5/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/gigaset/GS5/proprietary/system_ext/etc/init/mdlogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mdlogger.rc \
+    vendor/gigaset/GS5/proprietary/system_ext/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmtk_vt_wrapper.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmtkperf_client.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libvcodec_cap.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libvcodec_capenc.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib/libvsim-adaptor-client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libvsim-adaptor-client.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libBSTBeautyAPK.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libBSTBeautyAPK.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libUvPanorama.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libUvPanorama.so \
@@ -63,13 +52,26 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaudiotoolkit.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libcmdl_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcmdl_ndk.mtk.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libcomposer_ext.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomposer_ext.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomutils.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libdrmmtkutil.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdrmmtkutil.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libdrmmtkwhitelist.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdrmmtkwhitelist.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libem_aoltest_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_aoltest_jni.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_audio_jni.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libem_bleoffload_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_bleoffload_jni.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_support_jni.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libem_wifi_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_wifi_jni.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_adapt.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_rtp.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_socketwrapper.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libjni_bstbeauty.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjni_bstbeauty.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libjni_bstfilter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjni_bstfilter.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libjni_uvpanorama.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjni_uvpanorama.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libmcv_runtime_usdk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmcv_runtime_usdk.mtk.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libmdloggerrecycle.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmdloggerrecycle.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_vt_service.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_vt_wrapper.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtkperf_client.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libmvpu_cic_ci_compiler.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_cic_ci_compiler.mtk.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libmvpu_clc_mvpu_debuginfo.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_clc_mvpu_debuginfo.mtk.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libmvpu_clc_mvpu_elf.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_clc_mvpu_elf.mtk.so \
@@ -87,11 +89,18 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuronusdk_adapter.mtk.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libnir_neon_driver_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnir_neon_driver_ndk.mtk.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libpcap_bak.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libpcap_bak.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsignal.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsink.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsource.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libstnfc-nci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libstnfc-nci.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libstnfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libstnfc_nci_jni.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libteeservice_client.trustonic.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libteeservice_client.trustonic.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libtensorflowlite24.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtensorflowlite24.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/libtflite_mtk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtflite_mtk.mtk.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_cap.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_capenc.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libvsim-adaptor-client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvsim-adaptor-client.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvt_avsync.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/vendor.mediatek.hardware.aee@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.aee@1.0.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/vendor.mediatek.hardware.aee@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.aee@1.1.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so \
@@ -112,6 +121,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkpower@1.2.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/vendor.mediatek.hardware.touchll@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.touchll@1.0.so \
+    vendor/gigaset/GS5/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
     vendor/gigaset/GS5/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/gigaset/GS5/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
     vendor/gigaset/GS5/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
@@ -150,7 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
     vendor/gigaset/GS5/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
     vendor/gigaset/GS5/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
-    vendor/gigaset/GS5/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/gigaset/GS5/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/gigaset/GS5/proprietary/vendor/bin/hw/tetheroffloadservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/tetheroffloadservice \
     vendor/gigaset/GS5/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service \
@@ -161,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service \
     vendor/gigaset/GS5/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service \
     vendor/gigaset/GS5/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
-    vendor/gigaset/GS5/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
     vendor/gigaset/GS5/proprietary/vendor/bin/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
     vendor/gigaset/GS5/proprietary/vendor/bin/ipsec_mon:$(TARGET_COPY_OUT_VENDOR)/bin/ipsec_mon \
     vendor/gigaset/GS5/proprietary/vendor/bin/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/jpegtool \
@@ -386,7 +394,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
-    vendor/gigaset/GS5/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
@@ -396,7 +403,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
-    vendor/gigaset/GS5/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/init.bip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
     vendor/gigaset/GS5/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
@@ -887,6 +893,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/lib/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_volte_core.so \
     vendor/gigaset/GS5/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
     vendor/gigaset/GS5/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
+    vendor/gigaset/GS5/proprietary/vendor/lib/libsensorndkbridge-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge-v30.so \
     vendor/gigaset/GS5/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
     vendor/gigaset/GS5/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
     vendor/gigaset/GS5/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
@@ -1325,6 +1332,7 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
+    vendor/gigaset/GS5/proprietary/vendor/lib64/libsensorndkbridge-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge-v30.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libsimaka.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimaka.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     vendor/gigaset/GS5/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
@@ -1452,11 +1460,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libfmjni \
     libwifi-hal-mtk \
-    EngineerMode \
-    ImsService \
     PriFactoryTest \
     HorCali \
     SensorHub \
+    EngineerMode \
+    ImsService \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
@@ -1465,11 +1473,8 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
-    mediatek-wfo-legacy \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     android.hardware.usb@1.2-service-mediatekv2 \
-    android.hardware.wifi.hostapd \
-    android.hardware.wifi.supplicant \
     gnss-mtk \
     gnss@2.1-service-mtk \
     lbs_hidl_service@1.0 \
