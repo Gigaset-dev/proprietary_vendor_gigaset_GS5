@@ -6,7 +6,7 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfmjni",
+	name: "prebuilt_libfmjni",
 	owner: "gigaset",
 	strip: {
 		none: true,
