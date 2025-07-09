@@ -1457,7 +1457,6 @@ PRODUCT_COPY_FILES += \
     vendor/gigaset/GS5/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
 
 PRODUCT_PACKAGES += \
-    prebuilt_libfmjni \
     libwifi-hal-mtk \
     PriFactoryTest \
     HorCali \
